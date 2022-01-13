@@ -1,0 +1,3 @@
+[submodule "my_bio_repo"]
+	path = my_bio_repo
+	url = git@github.com:supershadoe/supershadoe
