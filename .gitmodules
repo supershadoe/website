@@ -1,3 +1,3 @@
-[submodule "my_bio_repo"]
-	path = my_bio_repo
+[submodule "_includes/aboutme"]
+	path = _includes/aboutme
 	url = git@github.com:supershadoe/supershadoe

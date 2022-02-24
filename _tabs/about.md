@@ -1,1 +1,7 @@
-../my_bio_repo/README.md
+---
+title: About
+icon: fas fa-info-circle
+order: 4
+---
+
+{% include aboutme/README.md %}
