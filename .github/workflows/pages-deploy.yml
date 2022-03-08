@@ -1,7 +1,4 @@
 # vim:sw=2:ts=2:sts=2:et
-# This file describes a GitHub Action which builds a website
-# <https://supershadoe.me> using jekyll in a Ubuntu VM and pushes the built
-# site to gh-pages branch which is then deployed by github-pages
 
 name: 'CD action for building jekyll site'
 
