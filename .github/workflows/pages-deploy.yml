@@ -17,7 +17,7 @@ jobs:
     steps:
       -
         name: Checkout the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           submodules: true
@@ -25,7 +25,6 @@ jobs:
         name: Setup Ruby and dependencies
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.3
           bundler-cache: true
       -
         name: Building site using jekyll
@@ -39,7 +38,7 @@ jobs:
             --allow_hash_href --disable_external --check_html "_site"
       -
         name: Upload artifact of build result
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: supershadoe_io-pages
           path: _site
@@ -50,13 +49,13 @@ jobs:
     steps:
       -
         name: Checkout gh-pages branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ref: gh-pages
       -
         name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: supershadoe_io-pages
       -
