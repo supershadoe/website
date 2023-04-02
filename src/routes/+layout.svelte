@@ -13,8 +13,8 @@
     <header>
         <nav class="navbar">
             <div class="navbar-start">
-                <a class="btn btn-ghost normal-case text-xl" href="/">
-                    supershadoe
+                <a class="btn btn-ghost normal-case text-xl tracking-wider"
+                    href="/">supershadoe
                 </a>
             </div>
             <div class="navbar-end">

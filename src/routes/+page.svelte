@@ -1,3 +1,3 @@
 <svelte:head>
-    <title>shadoe's blog</title>
+    <title>shadoe</title>
 </svelte:head>
