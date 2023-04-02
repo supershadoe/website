@@ -30,11 +30,9 @@
                 <a class="btn btn-ghost rounded" href="https://reddit.com/u/supershadoe">
                     <RedditIcon />
                 </a>
-                <form method="POST">
-                    <button type="submit" class="btn btn-ghost rounded">
-                        <MailIcon />
-                    </button>
-                </form>
+                <a class="btn btn-ghost rounded" href="/mailme">
+                    <MailIcon />
+                </a>
             </div>
           </nav>
     </header>
