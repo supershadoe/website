@@ -1,4 +1,5 @@
 import daisyui from "daisyui";
+import typography from "@tailwindcss/typography";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -7,5 +8,5 @@ export default {
         darkTheme: "halloween"
     },
     content: ["./src/**/*.{html,js,svelte}"],
-    plugins: [daisyui]
+    plugins: [ typography, daisyui]
 };
