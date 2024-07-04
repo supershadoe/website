@@ -103,15 +103,23 @@ dist
 # TernJS port file
 .tern-port
 
-# svelte's gitignore
-.DS_Store
-/build
+# svelte's gitignore #
+# Output
+.output
+.vercel
 /.svelte-kit
-/package
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
 .env.*
 !.env.example
-.vercel
-.output
+!.env.test
+
+# Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*

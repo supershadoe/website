@@ -1,3 +1,5 @@
+// @ts-check
+
 import daisyui from "daisyui";
 import typography from "@tailwindcss/typography";
 
