@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/site.astro
+layout: ../layouts/profile.astro
 title: shadoe
 ---
 

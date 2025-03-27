@@ -1,0 +1,16 @@
+---
+import type { MarkdownLayoutProps } from 'astro';
+import Site from "./site.astro";
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+}>;
+
+const { frontmatter } = Astro.props;
+---
+
+<Site title={frontmatter.title}>
+    <div class="prose ml-8">
+        <slot />
+    </div>
+</Site>
