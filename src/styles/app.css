@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 @plugin "daisyui" {
-  themes: valentine --default, halloween --prefersdark;
+    themes:
+        valentine --default,
+        halloween --prefersdark;
 }
 @plugin "@tailwindcss/typography";

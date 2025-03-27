@@ -4,6 +4,7 @@ title: shadoe
 ---
 
 ### Hi there 👋
+
 I'm a 20 y/o college student.
 
 I create stuff with clean and maintainable code, a good looking UI with decent
