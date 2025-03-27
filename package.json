@@ -8,14 +8,12 @@
     "author": "supershadoe",
     "license": "Apache-2.0",
     "scripts": {
-        "dev": "vite dev",
-        "serve": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-        "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+        "dev": "astro dev",
+        "serve": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
         "lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+        "format": "prettier --write ."
     },
     "devDependencies": {
         "astro": "^5.5.5",
