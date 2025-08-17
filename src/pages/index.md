@@ -3,40 +3,14 @@ layout: ../layouts/profile.astro
 title: shadoe
 ---
 
-### Hi there 👋
+Reliable, maintainable, aesthetic, thoughtful.
 
-I'm a 20 y/o college student.
+I craft tools that embody these four words.
 
-I create stuff with clean and maintainable code, a good looking UI with decent
-UX (aesthetics are very important imo) and a short but unique and powerful list
-of features.
+They might have a concise set of features but are highly potent.
 
-<details open><summary>
+The repositories pinned showcase what I have been working on.
 
-### Languages/frameworks
+_You can find my contributions to other open-source projects [here.](https://github.com/stars/supershadoe/lists/contrib)_
 
-</summary>
-
-- Typescript/JS
-- Python
-- Cross-platform apps: Flutter (Dart)
-- Website/webapp: HTML+CSS (css3/tailwind), Svelte
-- Mobile app:
-    - Android: Kotlin/Java
-    - Basics of Jetpack compose
-- Desktop GUI: Kivy (Python)
-- C/C++ (core concepts)
-
-<details>
-  <summary>Rarely used</summary>
-
-- Perl
-
-</details>
-
-</details>
-
-Check [this list](https://github.com/stars/supershadoe/lists/contrib) for stuff
-I have made a contribution to in the past.
-
-Check out the pinned repos on my profile for stuff I have worked on.
+_[Here's](https://github.com/supershadoe/) a list of all the projects I've worked on._
